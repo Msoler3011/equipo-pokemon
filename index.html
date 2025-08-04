@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemons 2025</title>
+    <style>
+        * {
+          box-sizing: border-box;  
+        }
+        .fondooscuro {
+            background: #000000;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+
+        }
+        .contenidocentral {
+            background: linear-gradient(rgba(132, 0, 255, 1.5), rgba(255, 0, 217, 0.968));
+        padding: 10px;
+            max-width: 5000px;
+            width: 80%;
+            padding: 2rem;
+            border-radius: 12px;
+            
+
+        }
+        body {
+            background-color: rgb(140, 0, 255);
+        }
+        
+        
+        .gengar, .greninja, .lycanroc, .noivern, .krookodile, .umbreon{
+            width: 300px; 
+            height: 400px;
+            border: 2px solid rgb(29, 0, 6);
+            float: left;
+            margin-right: 10px;
+        }
+        .gengar img, .greninja img, .krookodile img {
+            width: 230px;
+            height: 230px;
+            margin-left: 30px;
+        }
+
+        .noivern img {
+            width: 200px;
+            height: 200px;
+            margin-left: 45px;
+            margin-bottom: 30px;
+        }
+        .lycanroc img {
+            width: 200px;
+            height: 200px;
+            margin-left: 45px;
+            margin-bottom: 30px;
+        }       
+        .umbreon img {
+            width: 360px;
+            height: 360px;
+            margin-left: -30px;
+            margin-top: -65px;
+            margin-bottom: -65px;
+        }    
+        li {list-style-type: none;}
+        .titulopokemon {font-family: Georgia, 'Times New Roman', Times, serif;}
+        .info {
+            background-color: #a600ff2c;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            
+            
+            border-radius: 12px;
+            font-size: 20px;
+            line-height: 1.6;
+            box-shadow: 0 0 10px #00000080;
+
+        }
+        .sonido1 {
+            width: 200px;
+            height: 40px;
+        }
+        .sonido2 {
+            width: 200px;
+            height: 40px;
+        }
+        .sonido3 {
+            width: 200px;
+            height: 40px;
+
+        }
+        .sonido4 {
+            width: 200px;
+            height: 40px;
+        }
+        .sonido5 {
+            width: 200px;
+            height: 40px;
+        }
+        .sonido6 {
+            width: 200px;
+            height: 40px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+<center>
+     <div class="lol"
+     style="font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;">
+
+        <h1>Mi equipo pokemon</h1>
+
+    </div>
+</center>   
+<div class="fondooscuro">
+    <div class="contenidocentral">
+ <center>
+    <div class="caja2">
+        <ul>
+            <li class="gengar">
+                <h2 class="titulopokemon">Gengar</h2>
+                <img src="imagenes/gengar.png" alt="">
+                <!--elemento de audio-->
+                <audio id="gengar" src="audios/gengar.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('gengar').play()" class="sonido1">reproducir</button>
+            </li>
+
+            <li class="greninja">
+                <h2 class="titulopokemon">Greninja</h2>
+                <img src="imagenes/greninja.png" alt="">
+                <!--elemento de audio-->
+                <audio id="greninja" src="audios/greninja.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('greninja').play()" class="sonido2">reproducir</button>
+            </li>
+            <li class="lycanroc">
+                <h2 class="titulopokemon">Lycanroc</h2>
+                <img src="imagenes/lycanroc.png" alt="">
+                <!--elemento de audio-->
+                <audio id="lycanroc" src="audios/lycanroc.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('lycanroc').play()" class="sonido3">reproducir</button>
+            </li>
+            <li class="noivern">
+                <h2 class="titulopokemon">Noivern</h2>
+                <img src="imagenes/noivern.png" alt="">
+                <!--elemento de audio-->
+                <audio id="noivern" src="audios/noivern.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('noivern').play()" class="sonido4">reproducir</button>
+            </li>
+            <li class="krookodile">
+                <h2 class="titulopokemon">Krookodile</h2>
+                <img src="imagenes/krookodile.png" alt="">
+                <!--elemento de audio-->
+                <audio id="krookodile" src="audios/krookodile.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('krookodile').play()" class="sonido5">reproducir</button>
+            </li>
+                <li class="umbreon">
+                    <h2 class="titulopokemon">Umbreon</h2>
+                    <img src="imagenes/umbreon.png" alt="">
+                    <!--elemento de audio-->
+                <audio id="umbreon" src="audios/umbreon.mp3"></audio>
+                <!--boton que reproduce sonido-->
+                <button onclick="document.getElementById('umbreon').play()" class="sonido6">reproducir</button>
+                    
+                </li>
+        </ul>
+    </div>
+    <div class="info">
+  <h2
+  style="font-family: Georgia, 'Times New Roman', Times, serif;">Información de cada Pokémon</h2>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Gengar:</strong> Gengar es un Pokémon de tipo Fantasma/Veneno de la primera generación, conocido por su aspecto sombrío, 
+    ojos rojos y sonrisa macabra. Se cree que es la sombra viva de un ser humano y muchos lo relacionan con Clefable por su forma similar. Evoluciona de Gastly a Haunter (nivel 25) y luego a Gengar
+     al intercambiarlo. Es muy veloz, con gran ataque especial, pero defensas bajas. Cuenta con una Mega Evolución y forma Gigamax, y es famoso por su actitud traviesa y su habilidad para esconderse
+      en las sombras y asustar a otros.
+</p>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Greninja:</strong> Greninja es un Pokémon de tipo Agua/Siniestro de la sexta generación, evolución final de Froakie.
+    Inspirado en ninjas y ranas arbóreas, es veloz, ágil y usa su lengua como bufanda. Su habilidad *Mutatipo* le permite cambiar de tipo según el movimiento que use. Destaca por su forma especial 
+    **Greninja Ash**, fruto de un fuerte lazo con su entrenador, que aumenta su poder sin megaevolución. Es uno de los Pokémon más populares, conocido por su estilo sigiloso y movimientos como 
+    *Shuriken de Agua*.
+</p>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Lycanroc:</strong> Lycanroc Forma Nocturna es una evolución de Rockruff influenciada por la energía de la luna,
+     obtenida al subir de nivel de noche, especialmente en Pokémon Luna. De tipo Roca, se caracteriza por su apariencia salvaje, ojos rojos y actitud agresiva, al punto de atacar a su propio
+      entrenador si se altera. Inspirado en el hombre lobo, destaca por su estilo de combate feroz y habilidades como Tenacidad o Firmeza. Esta forma fue popularizada en el anime por Gladion
+       y representa el lado más indomable de Lycanroc.
+</p>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Noivern:</strong> Noivern es un Pokémon de tipo Dragón/Volador que evoluciona de Noibat al nivel 48.
+     Con apariencia de murciélago y habilidades sónicas, es capaz de emitir potentes ondas ultrasónicas que destruyen rocas. Vive en cuevas oscuras y se orienta mediante ecolocalización.
+      Aunque suele ser agresivo, puede ser muy leal si se cría con cuidado. Su diseño mezcla rasgos de dragón y altavoces, y es recordado por su aparición en el anime con Ash Ketchum.
+</p>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Krookodile:</strong> Krookodile es un Pokémon de tipo Tierra/Siniestro de la región Teselia,
+     con forma de cocodrilo bípedo y una apariencia feroz. Evoluciona de Sandile a Krokorok y luego a Krookodile en el nivel 40. Vive en desiertos y destaca por su gran
+      visión y poderosa mordida. En el anime, uno con gafas de sol se une a Ash y participa en importantes combates. Su nombre combina “Krook” (ladrón) y “Crocodile”,
+       y representa un depredador astuto, fuerte y territorial.
+</p>
+  <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Umbreon:</strong> Umbreon es un Pokémon de tipo Siniestro introducido en la segunda generación.
+     Evoluciona de Eevee al subir de nivel con alta amistad durante la noche, reflejando un fuerte vínculo y la influencia de la oscuridad. Destaca por su pelaje negro con 
+     anillos amarillos que brillan al sentirse amenazado. Inspirado en criaturas nocturnas y espíritus lunares, Umbreon es conocido por su lealtad, gran defensa y diseño elegante. 
+     Su versión shiny tiene anillos azul celeste, lo que lo hace muy popular entre los fans.
+</p>
+</div>
+   </center>
+    </div> 
+    </div>
+ 
+    <div class="caja3">
+        
+    </div>
+    <div class="cnombrepokemon4"></div>
+</body>
+</html>
